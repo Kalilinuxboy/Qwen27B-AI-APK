@@ -1,13 +1,11 @@
-plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-}
+plugins { id 'com.android.application' }
 
 android {
-    namespace 'com.noor.qwenai'
+    namespace 'com.kalilinuxboy.qwen27b'
     compileSdk 35
+
     defaultConfig {
-        applicationId 'com.noor.qwenai'
+        applicationId 'com.kalilinuxboy.qwen27b'
         minSdk 23
         targetSdk 35
         versionCode 1
